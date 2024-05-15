@@ -1,0 +1,57 @@
+div{
+    height: 800px;
+    width: 1250px;
+}
+img{
+    height: 100%;
+    width:100%
+}
+#i3{
+    height: 95%;
+    width: 60%;
+    position: absolute;
+    top: 23%;
+    left: 20%;
+}
+h2{
+    color: blue;
+    text-decoration: wavy;
+    text-shadow: 2px 2px 4px rgb(129, 129, 239);
+}
+p{
+    padding-top:5px ;
+    word-wrap: break-word;
+    font-size: 15px;
+    text-align: justify;
+    font-family:cursive;
+    color: rgb(135, 12, 12);
+}
+h3{
+    color: rgb(31, 3, 47);
+    font-family: fantasy;
+}
+button{
+    text-decoration: black ;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0) ;
+}
+form{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    box-shadow: 3px 3px 6px rgb(83, 55, 55);
+    position: absolute;
+    top: 46%;
+    left: 38%;
+}
+form:hover{
+    transition: 0.9s;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 10px rgb(83, 55, 55);
+}
+button:hover{
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+

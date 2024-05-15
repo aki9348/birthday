@@ -1,0 +1,31 @@
+button{
+    height: 300px;
+    width: 500px;
+    background-image: url(lifafa.jpg);
+    background-size:cover ;
+    border-radius: 20%;
+    border: 1px solid black;
+    text-shadow: 3px 3px 8px black;
+    font-size: 15px;
+    box-shadow: 2px 2px 10px black;
+    position: fixed;
+    top:30%;
+    left:28%;
+    transition: 0.7s;
+    text-decoration: line-through;
+}
+button:hover{
+    box-shadow: 4px 4px 20px rgb(47, 46, 46);
+    text-transform: capitalize;
+    text-decoration:none;
+    transform:scale(1.5);
+    font-size: 25px;
+}
+div{
+    height: 800px;
+    width: 1250px;
+}
+img{
+    height: 100%;
+    width:100%
+}
